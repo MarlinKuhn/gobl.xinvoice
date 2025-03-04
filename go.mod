@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.22.1
 
 require (
-	github.com/invopop/gobl v0.208.0
+	github.com/invopop/gobl v0.211.2-0.20250304122918-a187e1434b3f
 	github.com/invopop/gobl.cii v0.3.0
 	github.com/invopop/gobl.ubl v0.3.0
 	github.com/joho/godotenv v1.5.1
@@ -13,6 +13,12 @@ require (
 	github.com/stretchr/testify v1.9.0
 	gitlab.com/flimzy/testy v0.14.0
 )
+
+replace github.com/invopop/gobl.cii v0.3.0 => github.com/MarlinKuhn/gobl.cii v0.2.1-0.20250304150800-a42b06039dc3
+
+replace github.com/invopop/gobl.ubl v0.3.0 => github.com/MarlinKuhn/gobl.ubl v0.2.1-0.20250304151249-0d3229bd9a7b
+
+replace github.com/nbio/xml v0.0.0-20241028124227-eac89c735a80 => github.com/MarlinKuhn/xml v0.0.1
 
 require (
 	cloud.google.com/go v0.118.0 // indirect
@@ -28,7 +34,7 @@ require (
 	github.com/invopop/yaml v0.3.1 // indirect
 	github.com/magefile/mage v1.15.0 // indirect
 	github.com/mailru/easyjson v0.9.0 // indirect
-	github.com/nbio/xml v0.0.0-20241216070934-4764bf75a92d // indirect
+	github.com/nbio/xml v0.0.0-20241028124227-eac89c735a80 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
