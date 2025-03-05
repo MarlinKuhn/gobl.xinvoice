@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.22.1
 
 require (
-	github.com/invopop/gobl v0.211.2-0.20250304122918-a187e1434b3f
+	github.com/invopop/gobl v0.211.2-0.20250304223354-f7380dfa3fd8
 	github.com/invopop/gobl.cii v0.3.0
 	github.com/invopop/gobl.ubl v0.3.0
 	github.com/joho/godotenv v1.5.1
@@ -14,9 +14,9 @@ require (
 	gitlab.com/flimzy/testy v0.14.0
 )
 
-replace github.com/invopop/gobl.cii v0.3.0 => github.com/MarlinKuhn/gobl.cii v0.2.1-0.20250304150800-a42b06039dc3
+replace github.com/invopop/gobl.cii v0.3.0 => github.com/MarlinKuhn/gobl.cii v0.2.1-0.20250305134217-9e11d5e98fa0
 
-replace github.com/invopop/gobl.ubl v0.3.0 => github.com/MarlinKuhn/gobl.ubl v0.2.1-0.20250304151249-0d3229bd9a7b
+replace github.com/invopop/gobl.ubl v0.3.0 => github.com/MarlinKuhn/gobl.ubl v0.2.1-0.20250305134231-f108c7636958
 
 replace github.com/nbio/xml v0.0.0-20241028124227-eac89c735a80 => github.com/MarlinKuhn/xml v0.0.1
 
